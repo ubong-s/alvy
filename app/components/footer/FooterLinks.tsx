@@ -1,3 +1,5 @@
+"use client";
+
 import { footer_links } from "@/constants";
 import Link from "next/link";
 
