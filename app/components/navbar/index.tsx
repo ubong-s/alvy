@@ -3,8 +3,8 @@
 import { useCallback, useState } from "react";
 
 import { menu_links } from "@/constants";
-import { Logo } from "./Logo";
-import { MenuItem } from "./Menuitem";
+import { MenuItem } from "./MenuItem";
+import { Logo } from "../_shared";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

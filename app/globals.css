@@ -53,6 +53,10 @@ h6 {
   @apply font-chillax;
 }
 
+main {
+  min-height: 80vh;
+}
+
 .menu__bar {
   @apply h-[1px] bg-t-light w-full group-hover:bg-cod-gray  transition-all;
 }
