@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 @font-face {
   font-family: "Satoshi-Light";
   src: url("fonts/Satoshi-Light.woff2") format("woff2"),
@@ -49,4 +51,8 @@ h4,
 h5,
 h6 {
   @apply font-chillax;
+}
+
+.menu__bar {
+  @apply h-[1px] bg-t-light w-full group-hover:bg-cod-gray  transition-all;
 }

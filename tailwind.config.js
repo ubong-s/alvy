@@ -11,10 +11,12 @@ module.exports = {
         chillax: "Chillax",
         "satoshi-light": "Satoshi-Light",
         "satoshi-regular": "Satoshi-Regular",
+        "roboto-mono": `'Roboto Mono', monospace`,
       },
       colors: {
         "cod-gray": "#1A1A1A",
-        "cod-gray-1": "#1E1E1E",
+        "cod-gray-1": "rgba(255, 255, 255, 0.05)",
+        "cod-gray-2": "rgba(255, 255, 255, 0.03)",
         "t-light": "#F4F2ED",
         sundance: "#CEBD63",
       },
