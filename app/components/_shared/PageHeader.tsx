@@ -20,16 +20,16 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
       <div className={`lg:col-span-2 ${gutter !== "small" && "max-w-[650px]"}`}>
         {smallTitle ? (
           <div>
-            <h2 className="font-roboto-mono mb-4">{smallTitle}</h2>
+            <h1 className="font-roboto-mono mb-4">{smallTitle}</h1>
             <p className="font-chillax text-5xl lg:text-[60px] xl:text-[80px] max-w-[1000px] uppercase">
               {bigTitle}
             </p>
           </div>
         ) : (
           <div>
-            <h2 className="text-5xl lg:text-[60px] xl:text-[80px] max-w-[1000px]">
+            <h1 className="text-5xl lg:text-[60px] xl:text-[80px] max-w-[1000px]">
               {bigTitle}
-            </h2>
+            </h1>
           </div>
         )}
       </div>
