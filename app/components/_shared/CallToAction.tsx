@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ColoredButtonLink } from "./ColoredButtonLink";
 
 interface CallToActionProps {
   title?: string;
@@ -16,13 +17,13 @@ export const CallToAction: React.FC<CallToActionProps> = ({
   linkHref = "/contact",
 }) => {
   return (
-    <section className="p-8 xl:p-12 bg-sundance">
-      <div>
-        <p>{subtitle}</p>
-        <h2>{title}</h2>
+    <section className="p-8 grid gap-6 bg-sundance rounded-lg my-4 lg:grid-cols-4 lg:gap-20 lg:items-end xl:gap-36 xl:p-12">
+      <div className="text-cod-gray lg:col-span-3">
+        <p className="font-roboto-mono uppercase mb-4">{subtitle}</p>
+        <h2 className="text-5xl lg:text-[60px] xl:text-[80px]">{title}</h2>
       </div>
 
-      <Link href={linkHref}>{linkText}</Link>
+      <ColoredButtonLink variant="dark" text={linkText} href={linkHref} />
     </section>
   );
 };
