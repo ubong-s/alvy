@@ -16,7 +16,7 @@ export const ColoredButtonLink: React.FC<ColoredButtonLinkProps> = ({
   return (
     <Link
       href={href}
-      className={`flex items-center justify-center font-roboto-mono gap-4 p-4 rounded-lg uppercase ${
+      className={`flex items-center justify-center font-roboto-mono gap-4 p-4 rounded-lg uppercase transition-opacity hover:opacity-90 ${
         variant === "dark"
           ? "bg-cod-gray text-t-light"
           : "bg-sundance text-cod-gray"
