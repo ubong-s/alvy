@@ -1,4 +1,3 @@
-import React from "react";
 import { CallToAction, PageHeader } from "../components";
 import { ServicesList } from "./components";
 

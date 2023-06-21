@@ -1,3 +1,5 @@
+"use client";
+
 import { services } from "@/mockdata/services";
 import { ServiceCard } from "./ServiceCard";
 

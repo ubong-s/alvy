@@ -1,3 +1,5 @@
+"use client";
+
 import { ButtonLink } from "@/app/components/_shared/ButtonLink";
 import Image from "next/image";
 

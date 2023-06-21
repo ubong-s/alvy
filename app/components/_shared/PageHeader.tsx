@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 interface PageHeaderProps {
@@ -17,7 +19,7 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
 }) => {
   return (
     <section className="py-16 lg:p-24 grid gap-8 lg:grid-cols-3 lg:gap-30 lg:items-end">
-      <div className={`lg:col-span-2 ${gutter !== "small" && "max-w-[700px]"}`}>
+      <div className={`lg:col-span-2 ${gutter !== "small" && "max-w-[800px]"}`}>
         {smallTitle ? (
           <div>
             <h1 className="font-roboto-mono mb-4">{smallTitle}</h1>

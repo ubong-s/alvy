@@ -1,3 +1,5 @@
+"use client";
+
 import { projects } from "@/mockdata/projects";
 import { ProjectCard } from "./ProjectCard";
 
