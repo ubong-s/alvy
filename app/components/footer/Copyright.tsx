@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Copyright = () => {
   return (
     <div className="flex flex-col gap-4 rounded-lg bg-cod-gray-1  p-8 lg:flex-row lg:justify-between xl:p-12">
-      <p>
+      <p className="text-base">
         © {new Date().getFullYear()} Designed by{" "}
         <Link
           href="http://www.gola.io"
