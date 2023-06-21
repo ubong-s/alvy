@@ -18,18 +18,20 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
   gutter,
 }) => {
   return (
-    <section className="py-16 lg:p-24 grid gap-8 lg:grid-cols-3 lg:gap-30 lg:items-end">
-      <div className={`lg:col-span-2 ${gutter !== "small" && "max-w-[800px]"}`}>
+    <section className="py-16 lg:p-24 grid gap-8 lg:grid-cols-3 lg:gap-16 lg:items-end xl:gap-30">
+      <div
+        className={`lg:col-span-2  ${gutter !== "small" && "max-w-[800px]"}`}
+      >
         {smallTitle ? (
           <div>
             <h1 className="font-roboto-mono mb-4">{smallTitle}</h1>
-            <p className="font-chillax text-5xl lg:text-[60px] xl:text-[80px] max-w-[1000px] uppercase">
+            <p className="font-chillax text-5xl lg:text-[55px]  xl:text-[70px] 2xl:text-[80px] max-w-[1000px] uppercase">
               {bigTitle}
             </p>
           </div>
         ) : (
           <div>
-            <h1 className="text-5xl lg:text-[60px] xl:text-[80px] max-w-[1000px]">
+            <h1 className="text-5xl lg:text-[60px] xl:text-[70px] 2xl:text-[80px] max-w-[1000px]">
               {bigTitle}
             </h1>
           </div>
