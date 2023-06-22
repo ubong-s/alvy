@@ -1,23 +1,24 @@
 "use client";
 
+import { ButtonLink } from "@/app/components/_shared/ButtonLink";
 import Image from "next/image";
 
-interface ImageTextProps {
+interface FeaturedPostProps {
   title: string;
-  subtitle: string;
+  category: string;
   image: string;
-  descriptionOne: string;
-  descriptionTwo: string;
+  excerpt: string;
   reverseColumns?: boolean;
+  readMore: string;
 }
 
-export const ImageText: React.FC<ImageTextProps> = ({
+export const FeaturedPost: React.FC<FeaturedPostProps> = ({
   title,
-  subtitle,
+  category,
   image,
-  descriptionOne,
-  descriptionTwo,
+  excerpt,
   reverseColumns,
+  readMore,
 }) => {
   return (
     <div
@@ -37,15 +38,18 @@ export const ImageText: React.FC<ImageTextProps> = ({
 
       <div className="bg-cod-gray-1 text-t-light md:flex-1 ">
         <div className="grid p-4 lg:p-12 md:h-full">
-          <h2 className="font-roboto-mono text-base mb-8">{title}</h2>
+          <p className="font-roboto-mono text-base mb-8 uppercase">
+            {category}
+          </p>
 
           <div className="self-end">
-            <p className="text-2xl lg:text-3xl xl:text-5xl uppercase font-chillax mb-4">
-              {subtitle}
-            </p>
-            <div className="grid gap-4 xl:grid-cols-2 xl:gap-8 text-t-gray mb-8">
-              <p>{descriptionOne}</p>
-              <p>{descriptionTwo}</p>
+            <h2 className="text-2xl lg:text-3xl xl:text-5xl uppercase font-chillax mb-4">
+              {title}
+            </h2>
+            <p className="text-t-gray">{excerpt}</p>
+
+            <div className="mt-10">
+              <ButtonLink href={readMore} text="Read More" />
             </div>
           </div>
         </div>

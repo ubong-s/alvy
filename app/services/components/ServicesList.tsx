@@ -1,14 +1,18 @@
 "use client";
 
 import { services } from "@/mockdata/services";
-import { ServiceCard } from "./ServiceCard";
+import { ImageText } from "@/app/components";
 
 export const ServicesList = () => {
   return (
     <section className="grid gap-4">
-      {services.map((service) => (
-        <ServiceCard key={service.id} {...service} />
-      ))}
+      {services.map((service, i) =>
+        i % 2 === 0 ? (
+          <ImageText key={service.id} {...service} />
+        ) : (
+          <ImageText key={service.id} {...service} reverseColumns />
+        )
+      )}
     </section>
   );
 };
