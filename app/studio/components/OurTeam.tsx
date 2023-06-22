@@ -1,5 +1,6 @@
 "use client";
 
+import { SectionHeader } from "@/app/components";
 import { ButtonLink } from "@/app/components/_shared/ButtonLink";
 import { team } from "@/mockdata/team";
 import Image from "next/image";
@@ -8,11 +9,13 @@ import Link from "next/link";
 export const OurTeam = () => {
   return (
     <section>
-      <div className="flex  gap-8 py-8 md:p-8 items-center justify-between lg:p-12">
-        <h2 className="text-2xl lg:text-3xl xl:text-5xl">Our Team</h2>
-        <ButtonLink href="/jobs" text="Find Job" />
-      </div>
-
+      <SectionHeader
+        title="Our Team"
+        link={{
+          href: "/jobs",
+          text: "Find Job",
+        }}
+      />
       <div className="grid gap-4 lg:grid-cols-3">
         {team.map(({ _id, expertise, image, name, socials }) => (
           <div key={_id} className="relative rounded-lg overflow-hidden">
