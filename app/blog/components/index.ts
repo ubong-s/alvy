@@ -1,2 +1,2 @@
-export { BlogList } from "./BlogList";
+export { Posts } from "./Posts";
 export { FeaturedPost } from "./FeaturedPost";
