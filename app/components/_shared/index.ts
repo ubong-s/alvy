@@ -4,3 +4,4 @@ export { PageHeader } from "./PageHeader";
 export { ImageText } from "./ImageText";
 export { PostCard } from "./PostCard";
 export { SectionHeader } from "./SectionHeader";
+export { PostList } from "./PostList";

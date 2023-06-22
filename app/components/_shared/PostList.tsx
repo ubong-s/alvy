@@ -1,7 +1,11 @@
 import { PostCard } from "@/app/components";
-import { posts } from "@/mockdata/posts";
+import { Post } from "@/types";
 
-export const Posts = () => {
+interface PostListProps {
+  posts: Post[];
+}
+
+export const PostList: React.FC<PostListProps> = ({ posts }) => {
   return (
     <section className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (
