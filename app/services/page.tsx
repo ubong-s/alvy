@@ -3,7 +3,7 @@ import { ServicesList } from "./components";
 
 export default function Services() {
   return (
-    <>
+    <div className="py-4 grid gap-4">
       <PageHeader
         smallTitle="services"
         bigTitle="Tailored Brand Solutions"
@@ -11,6 +11,6 @@ export default function Services() {
       />
       <ServicesList />
       <CallToAction />
-    </>
+    </div>
   );
 }

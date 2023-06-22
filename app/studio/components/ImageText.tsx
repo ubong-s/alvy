@@ -1,25 +1,30 @@
 "use client";
 
-import { ButtonLink } from "@/app/components/_shared/ButtonLink";
 import Image from "next/image";
 
-interface ServiceCardProps {
+interface ImageTextProps {
   title: string;
   subtitle: string;
   image: string;
   descriptionOne: string;
   descriptionTwo: string;
+  reverseColumns?: boolean;
 }
 
-export const ServiceCard: React.FC<ServiceCardProps> = ({
+export const ImageText: React.FC<ImageTextProps> = ({
   title,
   subtitle,
   image,
   descriptionOne,
   descriptionTwo,
+  reverseColumns,
 }) => {
   return (
-    <div className="flex flex-col gap-4 md:flex-row md:even:flex-row-reverse">
+    <div
+      className={`flex flex-col gap-4 md:flex-row ${
+        reverseColumns && "md:flex-row-reverse"
+      }`}
+    >
       <div className="overflow-hidden md:flex-1">
         <Image
           src={image}
@@ -31,7 +36,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
       </div>
 
       <div className="bg-cod-gray-1 text-t-light md:flex-1 ">
-        <div className="grid p-4 lg:p-12 h-full">
+        <div className="grid p-4 lg:p-12 md:h-full">
           <h2 className="font-roboto-mono text-base mb-8">{title}</h2>
 
           <div className="self-end">
@@ -42,7 +47,6 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
               <p>{descriptionOne}</p>
               <p>{descriptionTwo}</p>
             </div>
-            <ButtonLink text="Get In Touch" href="/contact" />
           </div>
         </div>
       </div>

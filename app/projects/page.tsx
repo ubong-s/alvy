@@ -4,7 +4,7 @@ import { ProjectsList } from "./components";
 
 export default function Project() {
   return (
-    <>
+    <div className="py-4 grid gap-4">
       <PageHeader
         smallTitle="projects"
         bigTitle="From Concept to Creation"
@@ -12,6 +12,6 @@ export default function Project() {
       />
       <ProjectsList />
       <CallToAction />
-    </>
+    </div>
   );
 }
