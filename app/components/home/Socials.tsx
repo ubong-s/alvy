@@ -7,23 +7,23 @@ import { ArrowLink } from "../icons";
 export const Socials = () => {
   return (
     <section className="overflow-x-hidden">
-      <h2 className="py-8 pb-10 flex items-center just gap-8 flex-nowrap w-[200%] font-roboto-mono -translate-x-[500px]">
+      <h2 className="py-8 pb-10 flex items-center just gap-8 flex-nowrap font-roboto-mono w ">
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>
-        <span>FOLLOW US ON SOCIAL MEDIA</span>
+        <span className="whitespace-nowrap">FOLLOW US ON SOCIAL MEDIA</span>
       </h2>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         {social_links.map(({ text, link }) => (
@@ -44,7 +44,7 @@ export const Socials = () => {
             </div>
             <div className="xl:self-end">
               <h3 className="mb-2">{text}</h3>
-              <p className="text-base">
+              <p className="text-base text-t-gray">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Blanditiis, voluptate!
               </p>

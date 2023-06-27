@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import { PostList, SectionHeader } from "../_shared";
 import { posts } from "@/mockdata/posts";
 

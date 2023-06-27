@@ -1,6 +1,7 @@
 import { ButtonLink } from "@/app/components/_shared/ButtonLink";
 import Image from "next/image";
 import Link from "next/link";
+import { Badge } from "./Badge";
 
 interface PostCardProps {
   slug: string;
@@ -26,15 +27,15 @@ export const PostCard: React.FC<PostCardProps> = ({
           height={590}
           className="rounded-lg w-full"
         />
-        <span className="absolute bottom-8 left-8 border border-t-gray rounded-[5px] bg-[rgba(255,255,255,.05)] backdrop-blur-[0.25rem] p-2 uppercase font-roboto-mono text-sm">
-          {category}
-        </span>
+        <div className="absolute bottom-8 left-8">
+          <Badge text={category} />
+        </div>
       </div>
-      <div className="p-4 pt-8 grid gap-1  md:h-[225px]">
+      <div className="p-4 pt-8 grid gap-1  xl:h-[225px]">
         <h3 className="capitalize lg:text-lg ">{title}</h3>
         <p className="text-base text-t-gray">{excerpt}</p>
 
-        <div className="mt-1 self-end">
+        <div className="mt-4 self-end">
           <ButtonLink text="Read More" href={slug} />
         </div>
       </div>

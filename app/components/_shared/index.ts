@@ -5,3 +5,5 @@ export { ImageText } from "./ImageText";
 export { PostCard } from "./PostCard";
 export { SectionHeader } from "./SectionHeader";
 export { PostList } from "./PostList";
+export { SubscriptionForm } from "./SubscriptionForm";
+export { Badge } from "./Badge";
