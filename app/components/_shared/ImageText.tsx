@@ -40,7 +40,7 @@ export const ImageText: React.FC<ImageTextProps> = ({
       </div>
 
       <div className="bg-cod-gray-1 text-t-light md:flex-1 ">
-        <div className="grid p-4 lg:p-12 md:h-full">
+        <div className="grid p-6 lg:p-12 md:h-full">
           <h2 className="font-roboto-mono text-base mb-8">{title}</h2>
 
           <div className="self-end">

@@ -15,7 +15,7 @@ export const SelectedBrands = () => {
         {projects.map(({ id, first_image, name, category }) => (
           <div key={id} className="overflow-hidden rounded-lg relative">
             <div className="relative">
-              <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.3)] z-[1]"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.1)] z-[1]"></div>
               <Image
                 src={first_image}
                 alt={name}
@@ -25,7 +25,7 @@ export const SelectedBrands = () => {
               />
             </div>
 
-            <div className="absolute left-0 top-0 w-full h-full p-4 md:p-8 lg:p-16 xl:p-[90px] flex flex-col justify-between z-[2]">
+            <div className="absolute left-0 top-0 w-full h-full p-6 md:p-8 lg:p-16 xl:p-[90px] flex flex-col justify-between z-[2]">
               <Image
                 src="/icons/behance.svg"
                 alt={name}

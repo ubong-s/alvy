@@ -1,5 +1,5 @@
-import { Header } from "./components";
-import { Footer } from "./components/footer";
+import { ClientProvider } from "@/utils/ClientProvider";
+import { Header, Footer } from "./components";
 import "./globals.css";
 
 export const metadata = {

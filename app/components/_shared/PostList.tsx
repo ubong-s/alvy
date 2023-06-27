@@ -7,7 +7,7 @@ interface PostListProps {
   posts?: Post[];
 }
 
-export const PostList: React.FC<PostListProps> = ({ posts }) => {
+export const PostList: React.FC<PostListProps> = ({ posts = [] }) => {
   if (!posts) {
     return null;
   }
