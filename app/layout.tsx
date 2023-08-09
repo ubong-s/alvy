@@ -1,10 +1,11 @@
-import { ClientProvider } from "@/utils/ClientProvider";
-import { Header, Footer } from "./components";
-import "./globals.css";
+import './globals.css';
+
+import { Footer } from '@/components/footer';
+import { Navbar } from '@/components/navbar';
 
 export const metadata = {
-  title: "Alvy Agency",
-  description: "Fashion and Branding",
+  title: 'Alvy Agency',
+  description: 'Fashion and Branding',
 };
 
 export default function RootLayout({
@@ -13,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="p-4">
-        <Header />
+    <html lang='en'>
+      <body className='p-4'>
+        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>
