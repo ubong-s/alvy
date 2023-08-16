@@ -7,6 +7,13 @@ export const projects_data = [
     second_image: '/images/noise.png',
     excerpt:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
+
+    details: {
+      client: 'Lorem Ipsum',
+      timeline: '4 Weeks',
+      services: 'Fashion',
+      website: 'Fashion',
+    },
   },
   {
     id: 2,
@@ -16,6 +23,12 @@ export const projects_data = [
     second_image: '/images/noise.png',
     excerpt:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
+    details: {
+      client: 'Lorem Ipsum',
+      timeline: '4 Weeks',
+      services: 'Fashion',
+      website: 'Fashion',
+    },
   },
   {
     id: 3,
@@ -25,6 +38,12 @@ export const projects_data = [
     second_image: '/images/noise.png',
     excerpt:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
+    details: {
+      client: 'Lorem Ipsum',
+      timeline: '4 Weeks',
+      services: 'Fashion',
+      website: 'Fashion',
+    },
   },
   {
     id: 4,
@@ -34,6 +53,12 @@ export const projects_data = [
     second_image: '/images/noise.png',
     excerpt:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
+    details: {
+      client: 'Lorem Ipsum',
+      timeline: '4 Weeks',
+      services: 'Fashion',
+      website: 'Fashion',
+    },
   },
   {
     id: 5,
@@ -43,5 +68,11 @@ export const projects_data = [
     second_image: '/images/noise.png',
     excerpt:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
+    details: {
+      client: 'Lorem Ipsum',
+      timeline: '4 Weeks',
+      services: 'Fashion',
+      website: 'Fashion',
+    },
   },
 ];
