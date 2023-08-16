@@ -2,6 +2,8 @@ import { projects_data } from '@/mockdata/projects_data';
 import { ProjectHero } from './components/project-hero';
 import { ProjectDetails } from './components/project-details';
 import { ProjectOutline } from './components/project-outline';
+import { ProjectGallery } from './components/project-gallery';
+import { CallToAction } from '@/components/ui';
 
 const SingleProjectPage = () => {
   return (
@@ -13,6 +15,8 @@ const SingleProjectPage = () => {
       />
       <ProjectDetails data={projects_data[0].details} />
       <ProjectOutline data={projects_data[0].outline} />
+      <ProjectGallery images={projects_data[0].gallery} />
+      <CallToAction />
     </div>
   );
 };

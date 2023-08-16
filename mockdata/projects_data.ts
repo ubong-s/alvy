@@ -14,7 +14,6 @@ export const projects_data = [
       services: 'Fashion',
       website: 'Fashion',
     },
-
     outline: {
       challenge: {
         title: 'Brand with no purpuse',
@@ -32,6 +31,12 @@ export const projects_data = [
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
       },
     },
+    gallery: [
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+    ],
   },
   {
     id: 2,
@@ -64,6 +69,12 @@ export const projects_data = [
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
       },
     },
+    gallery: [
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+    ],
   },
   {
     id: 3,
@@ -96,6 +107,12 @@ export const projects_data = [
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
       },
     },
+    gallery: [
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+    ],
   },
   {
     id: 4,
@@ -128,6 +145,12 @@ export const projects_data = [
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
       },
     },
+    gallery: [
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+    ],
   },
   {
     id: 5,
@@ -160,5 +183,11 @@ export const projects_data = [
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
       },
     },
+    gallery: [
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+      '/images/noise.png',
+    ],
   },
 ];
