@@ -3,6 +3,7 @@ import { ProjectHero } from './components/project-hero';
 import { ProjectDetails } from './components/project-details';
 import { ProjectOutline } from './components/project-outline';
 import { ProjectGallery } from './components/project-gallery';
+import { PrevNextProject } from './components/prev-next-project';
 import { CallToAction } from '@/components/ui';
 
 const SingleProjectPage = () => {
@@ -16,6 +17,7 @@ const SingleProjectPage = () => {
       <ProjectDetails data={projects_data[0].details} />
       <ProjectOutline data={projects_data[0].outline} />
       <ProjectGallery images={projects_data[0].gallery} />
+      <PrevNextProject />
       <CallToAction />
     </div>
   );
