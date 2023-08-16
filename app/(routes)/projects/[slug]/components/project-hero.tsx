@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Badge, ButtonLink } from '@/components/ui';
+import { ButtonLink } from '@/components/ui';
 
 interface ProjectHeroProps {
   name: string;
@@ -23,7 +23,7 @@ export const ProjectHero: React.FC<ProjectHeroProps> = ({
           alt={name}
           width={1880}
           height={930}
-          className='w-full lg:max-h-screen object-cover'
+          className='w-full md:max-h-[500px] lg:max-h-screen object-cover'
         />
       </div>
 
@@ -38,7 +38,7 @@ export const ProjectHero: React.FC<ProjectHeroProps> = ({
             <p className='max-w-[560px]'>{excerpt}</p>
           </div>
 
-          <ButtonLink text='Discover' href='#' />
+          <ButtonLink text='Discover' href='#details' arrowDown />
         </div>
       </div>
     </div>

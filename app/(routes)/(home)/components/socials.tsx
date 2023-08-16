@@ -10,7 +10,7 @@ import { ArrowLink } from '@/components/icons';
 export const Socials = () => {
   return (
     <section className='overflow-x-hidden'>
-      <h2 className='py-8 pb-10 flex items-center just gap-8 flex-nowrap font-roboto-mono w '>
+      <h2 className='py-8 pb-10 flex items-center just gap-8 flex-nowrap font-roboto-mono'>
         <span>·</span>
         <span className='whitespace-nowrap'>FOLLOW US ON SOCIAL MEDIA</span>
         <span>·</span>

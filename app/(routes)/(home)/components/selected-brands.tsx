@@ -38,7 +38,7 @@ export const SelectedBrands = () => {
 
               <div className='flex items-end justify-between'>
                 <div className='grid gap-4'>
-                  <h3 className='text-5xl lg:text-[70px] xl:text-[100px] 2xl:text-[120px]'>
+                  <h3 className='text-5xl lg:text-[60px] xl:text-[70px] 2xl:text-[80px]'>
                     {name}
                   </h3>
                   <ButtonLink text='Discover Project' href='#' />
