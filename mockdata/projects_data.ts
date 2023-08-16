@@ -5,6 +5,8 @@ export const projects_data = [
     name: 'Fashion',
     first_image: '/images/noise.png',
     second_image: '/images/noise.png',
+    excerpt:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
   },
   {
     id: 2,
@@ -12,6 +14,8 @@ export const projects_data = [
     name: 'Fashion',
     first_image: '/images/noise.png',
     second_image: '/images/noise.png',
+    excerpt:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
   },
   {
     id: 3,
@@ -19,6 +23,8 @@ export const projects_data = [
     name: 'Fashion',
     first_image: '/images/noise.png',
     second_image: '/images/noise.png',
+    excerpt:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
   },
   {
     id: 4,
@@ -26,6 +32,8 @@ export const projects_data = [
     name: 'Fashion',
     first_image: '/images/noise.png',
     second_image: '/images/noise.png',
+    excerpt:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
   },
   {
     id: 5,
@@ -33,5 +41,7 @@ export const projects_data = [
     name: 'Fashion',
     first_image: '/images/noise.png',
     second_image: '/images/noise.png',
+    excerpt:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ipsum eveniet nostrum eligendi voluptatem.',
   },
 ];

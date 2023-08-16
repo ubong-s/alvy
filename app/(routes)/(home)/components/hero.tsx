@@ -6,7 +6,7 @@ import { ButtonLink } from '@/components/ui';
 
 export const Hero = () => {
   return (
-    <section className='relative rounded-lg overflow-hidden h-[70vh] lg:h-[85vh]'>
+    <section className='relative rounded-lg overflow-hidden h-[70vh] lg:h-[90vh]'>
       <div className='relative w-full h-full'>
         <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.1)] z-[1]'></div>
         <Image
@@ -18,7 +18,7 @@ export const Hero = () => {
         />
       </div>
       <div className='absolute bottom-6 left-6 right-6 md:bottom-12 md:left-12 md:right-12 lg:bottom-16 lg:left-16 lg:right-16 xl:bottom-20 xl:left-20 xl:right-20 2xl:bottom-28 2xl:left-28 2xl:right-28 z-[2] grid gap-4'>
-        <h1 className='grid text-6xl lg:text-[75px] xl:text-[85px] 2xl:text-[100px]'>
+        <h1 className='grid text-6xl lg:text-[70px] xl:text-[100px] 2xl:text-[120px]'>
           <span>Fashion</span>{' '}
           <span className='lg:ml-[60px] xl:ml-[130px] 2xl:ml-[260px]'>
             & Branding

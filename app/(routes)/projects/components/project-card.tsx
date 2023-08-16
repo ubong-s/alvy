@@ -25,7 +25,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             <h2 className='text-2xl lg:text-3xl xl:text-5xl'>{name}</h2>
           </div>
           <div className='self-end'>
-            <ButtonLink text='Discover' href='#' />
+            <ButtonLink text='Discover' href='/projects/1' />
           </div>
         </div>
       </div>
