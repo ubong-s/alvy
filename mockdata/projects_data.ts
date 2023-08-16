@@ -14,6 +14,24 @@ export const projects_data = [
       services: 'Fashion',
       website: 'Fashion',
     },
+
+    outline: {
+      challenge: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      goal: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      result: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+    },
   },
   {
     id: 2,
@@ -28,6 +46,23 @@ export const projects_data = [
       timeline: '4 Weeks',
       services: 'Fashion',
       website: 'Fashion',
+    },
+    outline: {
+      challenge: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      goal: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      result: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
     },
   },
   {
@@ -44,6 +79,23 @@ export const projects_data = [
       services: 'Fashion',
       website: 'Fashion',
     },
+    outline: {
+      challenge: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      goal: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      result: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+    },
   },
   {
     id: 4,
@@ -59,6 +111,23 @@ export const projects_data = [
       services: 'Fashion',
       website: 'Fashion',
     },
+    outline: {
+      challenge: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      goal: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      result: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+    },
   },
   {
     id: 5,
@@ -73,6 +142,23 @@ export const projects_data = [
       timeline: '4 Weeks',
       services: 'Fashion',
       website: 'Fashion',
+    },
+    outline: {
+      challenge: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      goal: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
+      result: {
+        title: 'Brand with no purpuse',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur exercitationem dignissimos asperiores enim, vel ut soluta explicabo unde cum ab rem odio error, ',
+      },
     },
   },
 ];
