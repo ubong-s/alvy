@@ -2,7 +2,7 @@ import { ButtonLink } from '@/components/ui';
 
 export const PostIntro = () => {
   return (
-    <div>
+    <section>
       {/* Heading */}
       <div className='flex flex-col gap-8 py-8 md:p-8 lg:flex-row lg:items-start lg:justify-between lg:p-12 lg:gap-12 lg:py-20 xl:gap-20  xl:py-32'>
         <h2 className='text-4xl lg:leading-[65px] lg:text-[55px] xl:text-[60px] 2xl:text-[65px]'>
@@ -41,6 +41,6 @@ export const PostIntro = () => {
           <p>10 mins</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

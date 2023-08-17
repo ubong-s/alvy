@@ -1,13 +1,14 @@
-import { PostList, SubscriptionForm } from '@/components/ui';
+import { SubscriptionForm } from '@/components/ui';
 import { PostIntro } from './components/post-intro';
 import { PostContent } from './components/post-content';
+import { RelatedPosts } from './components/related-posts';
 
 const SinglePostPage = () => {
   return (
     <div className='grid gap-4 py-4'>
       <PostIntro />
       <PostContent />
-      <PostList />
+      <RelatedPosts />
       <SubscriptionForm />
     </div>
   );
