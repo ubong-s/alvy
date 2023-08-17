@@ -10,7 +10,7 @@ export const PostIntro = () => {
         </h2>
 
         <div className='max-w-[500px]'>
-          <p className='text-base mb-8'>
+          <p className='text-t-gray text-base mb-8 md:text-lg'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Accusantium optio quas aliquam neque quam vel? Illo nemo quam ab nam
             odit molestias, tempore ad quasi accusantium dolore vitae iure

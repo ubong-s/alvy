@@ -86,5 +86,5 @@ div {
 }
 
 .post-content p {
-  @apply text-t-gray m-4;
+  @apply text-t-gray mb-8;
 }

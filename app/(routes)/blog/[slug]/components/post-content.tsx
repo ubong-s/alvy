@@ -27,7 +27,7 @@ export const PostContent = () => {
 
         <div className='flex flex-col gap-8'>
           {/* Text Content */}
-          <div className='post-content flex flex-col gap-6'>
+          <div className='post-content flex flex-col gap-4'>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
             <p>
               Non excepturi nemo, voluptate eius, laudantium nihil, fugiat
