@@ -1,8 +1,12 @@
-import { CallToAction, SubscriptionForm, ImageText } from '@/components/ui';
+import {
+  CallToAction,
+  SubscriptionForm,
+  ImageText,
+  Socials,
+} from '@/components/ui';
 import { Hero } from './components/hero';
 import { SelectedBrands } from './components/selected-brands';
 import { LatestNews } from './components/latest-news';
-import { Socials } from './components/socials';
 
 export default function Home() {
   return (

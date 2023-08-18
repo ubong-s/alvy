@@ -15,14 +15,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   price,
 }) => {
   return (
-    <Link href='#' className='p-4 bg-cod-gray-1 rounded-lg'>
-      <Image
-        src={image}
-        alt={name}
-        width={580}
-        height={590}
-        className='rounded-lg w-full'
-      />
+    <Link href='#' className='p-4 bg-cod-gray-1 rounded-lg lg:rounded-xl'>
+      <div className='overflow-hidden'>
+        <Image
+          src={image}
+          alt={name}
+          width={580}
+          height={590}
+          className='w-full'
+        />
+      </div>
       <div className='flex justify-between items-center px-2 pt-4 pb-2'>
         <h3 className='lg:text-lg'>{name}</h3>
         <p className='font-roboto-mono text-base'>$ {price.toFixed(2)}</p>

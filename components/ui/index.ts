@@ -1,3 +1,4 @@
+export { Socials } from './socials';
 export { ButtonLink } from './button-link';
 export { Logo } from './logo';
 export { CallToAction } from './call-to-action';

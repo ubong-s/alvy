@@ -16,7 +16,7 @@ export const CallToAction: React.FC<CallToActionProps> = ({
   linkHref = '/contact',
 }) => {
   return (
-    <section className='p-8 grid gap-6 bg-sundance rounded-lg lg:grid-cols-4 lg:gap-20 lg:items-end xl:gap-36 xl:p-12'>
+    <section className='p-8 grid gap-6 bg-sundance  lg:grid-cols-4 lg:gap-20 lg:items-end xl:gap-36 xl:p-12 rounded-lg lg:rounded-xl'>
       <div className='text-cod-gray lg:col-span-3'>
         <p className='font-roboto-mono uppercase mb-4'>{subtitle}</p>
         <h2 className='text-5xl lg:text-[60px] xl:text-[70px] 2xl:text-[80px] max-w-[1000px]'>
