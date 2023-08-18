@@ -27,17 +27,17 @@ export const ContactForm = () => {
             <input
               type='name'
               placeholder='Name'
-              className='p-4 bg-transparent text-white rounded-lg border border-t-gray outline-none w-full'
+              className='p-4 bg-mine-shaft text-white rounded-lg border border-t-gray outline-none w-full'
             />
             <input
               type='email'
               placeholder='Email'
-              className='p-4 bg-transparent text-white rounded-lg border border-t-gray outline-none w-full'
+              className='p-4 bg-mine-shaft text-white rounded-lg border border-t-gray outline-none w-full'
             />
             <textarea
               placeholder='Message'
               rows={6}
-              className='p-4 bg-transparent text-white rounded-lg border border-t-gray outline-none w-full'
+              className='p-4 bg-[#292929] text-white rounded-lg border border-t-gray outline-none w-full'
             />
             <button
               type='submit'

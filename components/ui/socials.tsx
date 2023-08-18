@@ -32,7 +32,7 @@ export const Socials = () => {
         {social_links.map(({ text, link }) => (
           <div
             key={text}
-            className='grid items-start p-4 md:p-6 lg:p-8 rounded-lg bg-cod-gray-1 xl:h-[335px]'
+            className='grid items-start p-4 md:p-6 lg:p-8  bg-cod-gray-1 xl:h-[335px]'
           >
             <div className='flex items-center justify-between mb-12'>
               <Image

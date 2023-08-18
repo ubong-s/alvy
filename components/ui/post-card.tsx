@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -19,14 +21,14 @@ export const PostCard: React.FC<PostCardProps> = ({
   image,
 }) => {
   return (
-    <Link href={slug} className='p-4 bg-cod-gray-1 rounded-lg '>
+    <Link href={slug} className='p-4 bg-cod-gray-1 rounded-lg lg:rounded-xl'>
       <div className='relative'>
         <Image
           src={'/images/noise.png'}
           alt={title}
           width={580}
           height={590}
-          className='rounded-lg w-full'
+          className='rounded-lg lg:rounded-xl w-full'
         />
         <div className='absolute bottom-8 left-8'>
           <Badge text={category} />

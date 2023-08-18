@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className='grid gap-4 lg:grid-cols-4 xl:grid-cols-5 font-roboto-mono uppercase'>
       {/* Company Info */}
-      <div className='bg-cod-gray-1 rounded-lg col-span-1 p-8 flex flex-col justify-between xl:p-12'>
+      <div className='bg-cod-gray-1 col-span-1 p-8 flex flex-col justify-between xl:p-12'>
         <Logo />
 
         <ul className='flex flex-col gap-6 mt-20'>
@@ -37,7 +37,7 @@ export const Footer = () => {
 
       <div className='grid gap-4 lg:col-span-3 xl:col-span-4'>
         {/* Footer Links */}
-        <div className='rounded-lg bg-cod-gray-1 p-8 grid gap-12 grid-cols-2 lg:grid-cols-3 xl:p-12'>
+        <div className='bg-cod-gray-1 p-8 grid gap-12 grid-cols-2 lg:grid-cols-3 xl:p-12'>
           {footer_links.map(({ title, links }) => (
             <div key={title}>
               <h4 className='mb-8 text-xl text-white'>{title}</h4>
@@ -59,7 +59,7 @@ export const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className='flex flex-col gap-4 rounded-lg bg-cod-gray-1  p-8 lg:flex-row lg:justify-between xl:p-12'>
+        <div className='flex flex-col gap-4 bg-cod-gray-1  p-8 lg:flex-row lg:justify-between xl:p-12'>
           <p className='text-base'>
             © {new Date().getFullYear()} Designed by{' '}
             <Link

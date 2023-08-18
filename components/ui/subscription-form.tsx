@@ -4,15 +4,11 @@ import Image from 'next/image';
 
 export const SubscriptionForm = () => {
   return (
-    <section className='flex flex-col gap-4 rounded-lg bg-cod-gray-2 p-4 lg:flex-row lg:justify-between lg:items-center'>
+    <section className='flex flex-col gap-4 bg-cod-gray-2 p-4 lg:flex-row lg:justify-between lg:items-center rounded-lg lg:rounded-xl'>
       <div className='flex items-center gap-8'>
-        <Image
-          src='/images/noise.png'
-          alt='sub'
-          width={150}
-          height={100}
-          className='rounded-lg '
-        />
+        <div className='overflow-hidden'>
+          <Image src='/images/noise.png' alt='sub' width={150} height={100} />
+        </div>
         <div>
           <h2 className='font-roboto-mono'>NewsLetter</h2>
           <p className='font-chillax text-lg uppercase lg:text-2xl'>

@@ -5,7 +5,7 @@ export const posts_data = [
     excerpt:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint atque saepe?',
     category: 'Branding',
-    slug: '#',
+    slug: '/',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const posts_data = [
     excerpt:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint atque saepe?',
     category: 'Branding',
-    slug: '#',
+    slug: '/',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const posts_data = [
     excerpt:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint atque saepe?',
     category: 'Branding',
-    slug: '#',
+    slug: '/',
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const posts_data = [
     excerpt:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint atque saepe?',
     category: 'Branding',
-    slug: '#',
+    slug: '/',
   },
 ];
