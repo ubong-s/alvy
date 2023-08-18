@@ -1,7 +1,10 @@
 'use client';
 
-import { ButtonLink } from './button-link';
 import Image from 'next/image';
+
+import { cn } from '@/lib/utils';
+
+import { ButtonLink } from './button-link';
 
 interface ImageTextProps {
   title: string;
@@ -25,9 +28,10 @@ export const ImageText: React.FC<ImageTextProps> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col gap-4 md:flex-row ${
+      className={cn(
+        'flex flex-col gap-4 md:flex-row',
         reverseColumns && 'md:flex-row-reverse'
-      }`}
+      )}
     >
       <div className='overflow-hidden md:flex-1'>
         <Image

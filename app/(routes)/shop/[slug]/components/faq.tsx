@@ -19,7 +19,7 @@ export const FAQ = () => {
 
   return (
     <div className='grid gap-4 lg:grid-cols-2'>
-      <div className='flex flex-col justify-between  bg-cod-gray-2 p-6 lg:p-12'>
+      <div className='flex flex-col gap-12 justify-between  bg-cod-gray-2 p-6 lg:p-12'>
         <p className='font-roboto-mono uppercase'>FAQ</p>
         <h2 className='text-2xl lg:text-3xl xl:text-5xl'>
           Common
@@ -28,6 +28,7 @@ export const FAQ = () => {
         </h2>
       </div>
 
+      {/* FAQ QUESTIONS */}
       <div className='grid gap-4'>
         {faq_data.map((item) => (
           <div
@@ -38,17 +39,18 @@ export const FAQ = () => {
             )}
             onClick={() => toggleQuestion(item.id)}
           >
+            {/* Question */}
             <div
               className={cn(
-                'relative flex items-center gap-8 justify-between z-10 p-4 md:p-8',
+                'relative flex items-center gap-8 justify-between z-10 p-6 md:p-8',
                 activeQuestion === item.id
-                  ? 'bg-mine-shaft pb-0 md:pb-4'
-                  : 'pb-4 md:pb-8'
+                  ? 'bg-mine-shaft pb-4 md:pb-4'
+                  : 'pb-6 md:pb-8'
               )}
             >
               <h3>{item.question}</h3>
 
-              <button className='relative text-t-gray'>
+              <button className='relative text-t-gray w-6 h-6'>
                 <PlusCircle
                   className={cn(
                     'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all',
@@ -67,10 +69,10 @@ export const FAQ = () => {
             </div>
             <p
               className={cn(
-                'lg:text-base -translate-y-full text-t-gray transition-all px-4  md:px-8 ',
+                'lg:text-base -translate-y-full text-t-gray transition-all px-6  md:px-8 ',
                 activeQuestion === item.id
-                  ? 'opacity-100 h-auto translate-y-0 pt-4 z-0 -mt-4 pb-4 md:pb-8'
-                  : 'opacity-0 h-1 -z-10'
+                  ? 'opacity-100 h-auto translate-y-0 pt-4 z-0 -mt-4 pb-6 md:pb-8 leading-normal'
+                  : 'opacity-0 h-1 -z-10 leading-[0px] '
               )}
             >
               {item.answer}

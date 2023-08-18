@@ -21,7 +21,7 @@ export const SubscriptionForm = () => {
         <input
           type='email'
           placeholder='Your email'
-          className='uppercase font-roboto-mono p-5 bg-transparent text-white rounded-lg border border-t-gray outline-none flex-grow lg:w-[350px]'
+          className='uppercase font-roboto-mono p-5 bg-mine-shaft text-white rounded-lg border border-t-gray outline-none flex-grow lg:w-[350px]'
         />
         <button
           type='submit'

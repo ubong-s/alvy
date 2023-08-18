@@ -48,6 +48,10 @@ body {
   @apply max-w-[1920px] m-auto bg-cod-gray text-t-light font-satoshi-regular;
 }
 
+/* ul {
+  @apply m-auto  text-t-light font-satoshi-regular lg:text-[18px] xl:text-[20px] 2xl:text-[22px];
+} */
+
 h1,
 h2,
 h3,

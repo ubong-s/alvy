@@ -6,6 +6,7 @@ import { Mail, Phone, ArrowRight } from 'lucide-react';
 
 import { locations_data } from '@/mockdata/locations_data';
 import Link from 'next/link';
+import { cn } from '@/lib/utils';
 
 export const Locations = () => {
   const [activeImage, setActiveImage] = useState(1);
@@ -42,7 +43,10 @@ export const Locations = () => {
           <div
             key={location.id}
             onClick={() => onClick(location.id)}
-            className='flex gap-8 bg-cod-gray-2 p-4 items-center'
+            className={cn(
+              'flex gap-8 bg-cod-gray-2 p-4 items-center',
+              activeImage === location.id && 'lg:bg-mine-shaft'
+            )}
           >
             <div className='overflow-hidden h-full lg:min-w-[100px]'>
               <Image
