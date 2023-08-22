@@ -1,6 +1,6 @@
 import { posts_data } from '@/mockdata/posts_data';
 
-import { CallToAction, PostList } from '@/components/ui';
+import { CallToAction, PostList } from '@/components/_shared';
 import { FeaturedPost } from './components/featured-post';
 
 export default function Blog() {

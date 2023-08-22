@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { projects_data } from '@/mockdata/projects_data';
 
-import { Badge, SectionHeader, ButtonLink } from '@/components/ui';
+import { Badge, SectionHeader, ButtonLink } from '@/components/_shared';
 
 export const SelectedBrands = () => {
   return (

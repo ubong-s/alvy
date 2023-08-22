@@ -1,4 +1,4 @@
-import { CallToAction, PageHeader } from '@/components/ui';
+import { CallToAction, PageHeader } from '@/components/_shared';
 import { JobList } from './components/job-list';
 
 export default function Jobs() {

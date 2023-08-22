@@ -8,7 +8,7 @@ export const JobList = () => {
   return (
     <section className='grid gap-4'>
       {jobs_data.map((job) => (
-        <JobCard key={job._id} {...job} />
+        <JobCard key={job.id} {...job} />
       ))}
     </section>
   );

@@ -4,7 +4,7 @@ import { ProjectDetails } from './components/project-details';
 import { ProjectOutline } from './components/project-outline';
 import { ProjectGallery } from './components/project-gallery';
 import { PrevNextProject } from './components/prev-next-project';
-import { CallToAction } from '@/components/ui';
+import { CallToAction } from '@/components/_shared';
 
 const SingleProjectPage = () => {
   return (

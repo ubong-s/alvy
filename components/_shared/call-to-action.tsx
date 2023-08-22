@@ -1,6 +1,6 @@
 'use client';
 
-import { ColoredButtonLink } from '@/components/ui/colored-button-link';
+import { ColoredButtonLink } from '@/components/_shared/colored-button-link';
 
 interface CallToActionProps {
   title?: string;

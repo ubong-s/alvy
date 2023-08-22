@@ -3,7 +3,7 @@ import {
   SubscriptionForm,
   ImageText,
   Socials,
-} from '@/components/ui';
+} from '@/components/_shared';
 import { Hero } from './components/hero';
 import { SelectedBrands } from './components/selected-brands';
 import { LatestNews } from './components/latest-news';

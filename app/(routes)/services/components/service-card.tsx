@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import { ButtonLink } from '@/components/ui';
+import { ButtonLink } from '@/components/_shared';
 
 interface ServiceCardProps {
   title: string;

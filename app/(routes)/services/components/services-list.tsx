@@ -2,7 +2,7 @@
 
 import { services_data } from '@/mockdata/services_data';
 
-import { ImageText } from '@/components/ui';
+import { ImageText } from '@/components/_shared';
 
 export const ServicesList = () => {
   return (

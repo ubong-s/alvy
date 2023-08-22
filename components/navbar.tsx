@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { menu_links } from '@/constants';
 
-import { Logo } from '@/components/ui';
+import { Logo } from '@/components/_shared';
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

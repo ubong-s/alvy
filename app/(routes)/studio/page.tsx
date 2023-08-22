@@ -1,4 +1,4 @@
-import { CallToAction, ImageText } from '@/components/ui';
+import { CallToAction, ImageText } from '@/components/_shared';
 import { AboutIntro } from './components/about-intro';
 import { AboutStats } from './components/about-stats';
 import { OurTeam } from './components/our-team';

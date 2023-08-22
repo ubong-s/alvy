@@ -1,4 +1,4 @@
-import { SubscriptionForm } from '@/components/ui';
+import { SubscriptionForm } from '@/components/_shared';
 import { PostIntro } from './components/post-intro';
 import { PostContent } from './components/post-content';
 import { RelatedPosts } from './components/related-posts';
