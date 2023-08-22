@@ -1,8 +1,14 @@
 'use client';
 
+import { useMounted } from '@/hooks/use-mounted';
 import Image from 'next/image';
 
 export const SubscriptionForm = () => {
+  const { isMounted } = useMounted();
+
+  if (!isMounted) {
+    return null;
+  }
   return (
     <section className='flex flex-col gap-4 bg-cod-gray-2 p-4 lg:flex-row lg:justify-between lg:items-center rounded-lg lg:rounded-xl'>
       <div className='flex items-center gap-8'>

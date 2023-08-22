@@ -1,4 +1,4 @@
-import { CallToAction } from '@/components/ui';
+import { CallToAction } from '@/components/_shared';
 import { ProductInfo } from './components/product-info';
 import { FAQ } from './components/faq';
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { footer_links, social_links } from '@/constants';
 
-import { Logo } from '@/components/ui';
+import { Logo } from '@/components/_shared';
 
 export const Footer = () => {
   return (

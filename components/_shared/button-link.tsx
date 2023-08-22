@@ -3,6 +3,7 @@
 import Link from 'next/link';
 
 import { ArrowDown, ArrowLink } from '../icons';
+import { useMounted } from '@/hooks/use-mounted';
 
 interface ButtonLinkProps {
   text: string;
@@ -15,22 +16,29 @@ export const ButtonLink: React.FC<ButtonLinkProps> = ({
   href,
   arrowDown,
 }) => {
+  const { isMounted } = useMounted();
+
+  if (!isMounted) {
+    return null;
+  }
   return (
     <Link
       href={href}
       className='flex items-center font-roboto-mono gap-4 uppercase transition-opacity hover:opacity-90 
        '
     >
-      <span>
-        {arrowDown ? (
-          <span className='w-[40px] h-[40px] flex items-center justify-center rounded-full border border-t-light '>
-            <ArrowDown />
-          </span>
-        ) : (
-          <ArrowLink />
-        )}
-      </span>
-      <span>{text}</span>
+      <>
+        <span>
+          {arrowDown ? (
+            <span className='w-[40px] h-[40px] flex items-center justify-center rounded-full border border-t-light '>
+              <ArrowDown />
+            </span>
+          ) : (
+            <ArrowLink />
+          )}
+        </span>
+        <span>{text}</span>
+      </>
     </Link>
   );
 };

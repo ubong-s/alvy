@@ -1,6 +1,6 @@
 'use client';
 
-import { ButtonLink } from '@/components/ui';
+import { ButtonLink } from '@/components/_shared';
 import Image from 'next/image';
 
 interface ProjectCardProps {

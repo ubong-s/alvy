@@ -1,4 +1,4 @@
-import { Socials, SubscriptionForm } from '@/components/ui';
+import { Socials, SubscriptionForm } from '@/components/_shared';
 import { Locations } from './components/locations';
 import { ContactForm } from './components/contact-form';
 

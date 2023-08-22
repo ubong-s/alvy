@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { team_data } from '@/mockdata/team_data';
 
-import { ButtonLink, SectionHeader } from '@/components/ui';
+import { ButtonLink, SectionHeader } from '@/components/_shared';
 
 export const OurTeam = () => {
   return (

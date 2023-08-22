@@ -2,7 +2,7 @@
 
 import { posts_data } from '@/mockdata/posts_data';
 
-import { PostList, SectionHeader } from '@/components/ui';
+import { PostList, SectionHeader } from '@/components/_shared';
 
 export const LatestNews = () => {
   return (

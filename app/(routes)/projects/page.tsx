@@ -1,4 +1,4 @@
-import { CallToAction, PageHeader } from '@/components/ui';
+import { CallToAction, PageHeader } from '@/components/_shared';
 import { ProjectsList } from './components/projects-list';
 
 export default function Project() {

@@ -1,4 +1,4 @@
-import { CallToAction, PageHeader } from '@/components/ui';
+import { CallToAction, PageHeader } from '@/components/_shared';
 import { ProductList } from './components/product-list';
 
 export default function Shop() {

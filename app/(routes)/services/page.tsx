@@ -1,4 +1,4 @@
-import { CallToAction, PageHeader } from '@/components/ui';
+import { CallToAction, PageHeader } from '@/components/_shared';
 import { ServicesList } from './components/services-list';
 
 export default function Services() {
